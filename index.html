@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How Are You? Good Morning!</title>
+    <title>Image Prediction Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hello!</h1>
-        <p>How are you?</p>
-        <p>Good morning!</p>
-    </div>
+    <header>
+        <h1>Image Prediction Website</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload an Image</h2>
+            <input type="file" id="uploadInput" accept="image/*">
+            <button id="uploadButton">Upload</button>
+        </section>
+        <section id="prediction-section">
+            <h2>Prediction Results</h2>
+            <div id="predictionResult"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
